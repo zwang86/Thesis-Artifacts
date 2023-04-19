@@ -2,7 +2,7 @@
 
 This repository includes the artifacts and scripts for evaluating the Flexflow and FasterTransformer.
 
-## Flexflow GPT3-MoE
+## Flexflow GPT3-MoE Eval
 Clone and Build
 ```
 git clone --recursive https://github.com/flexflow/FlexFlow.git -b modelscope
