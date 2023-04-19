@@ -23,6 +23,7 @@ g++ data_generator.cpp data_generator.cc -I../../../include
 ```
 
 Run test:
+```
 ./examples/cpp/inference/mixture_of_experts/inference_moe -ll:cpu 4 -ll:gpu 4 -ll:util 16 -ll:fsize 14192 -ll:zsize 12192 --only-data-parallel --dataset <PATH TO request_tokens.txt> --arrival_info_path <PATH to arrival_times.txt> --tokens_to_generate <PATH to tokens_to_generate.txt> > flex_4_gpu_log.txt
 ```
 
