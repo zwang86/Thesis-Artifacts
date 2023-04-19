@@ -449,7 +449,7 @@ def main():
             break
         
     # Measure inference time.
-    print(f'[INFO] Total time costs: {timeit.default_timer() - start_time:.2f} s')
+    print(f'[INFO] Total time costs: {timeit.default_timer() - inference_start:.2f} s')
 
 
 if __name__ == '__main__':
